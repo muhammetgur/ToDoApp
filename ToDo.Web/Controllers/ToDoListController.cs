@@ -2,6 +2,7 @@
 using System.Web.UI;
 using ToDo.Core.Service.Web.Interfaces;
 using ToDo.Dto.Web;
+using ToDo.Web.Helper;
 
 namespace ToDo.Web.Controllers
 {
@@ -14,12 +15,14 @@ namespace ToDo.Web.Controllers
             _toDoListService = toDoListService;
         }
 
+        [TokenValidation]
         [HttpGet]
         public ActionResult Create()
         {
             return View("Edit", new ToDoListDto());
         }
 
+        [TokenValidation]
         [HttpPost]
         public ActionResult Create(ToDoListDto model)
         {
@@ -33,6 +36,7 @@ namespace ToDo.Web.Controllers
             return RedirectToAction("List");
         }
 
+        [TokenValidation]
         [OutputCache(Duration = 180, VaryByParam = "*")]
         [HttpGet]
         public ActionResult Edit(int id)
@@ -46,6 +50,7 @@ namespace ToDo.Web.Controllers
             return View(result.Data);
         }
 
+        [TokenValidation]
         [HttpPost]
         public ActionResult Edit(ToDoListDto model)
         {
@@ -55,10 +60,13 @@ namespace ToDo.Web.Controllers
                 return View(model);
             }
 
+            ClearCache(model.Id);
             return RedirectToAction("List");
         }
 
+        
         [OutputCache(Duration = 180, VaryByParam = "none")]
+        [TokenValidation]
         [HttpGet]
         public ActionResult List()
         {
@@ -67,7 +75,7 @@ namespace ToDo.Web.Controllers
             return View(result.Data);
         }
 
-        [Route("List")]
+        [TokenValidation]
         [OutputCache(Duration = 180, VaryByParam = "*")]
         [HttpGet]
         public ActionResult Search(string searchText = null)
@@ -79,7 +87,8 @@ namespace ToDo.Web.Controllers
             return View("List",result.Data);
         }
 
-        [OutputCache(Duration = 180, VaryByParam = "*")]
+        [TokenValidation]
+        [OutputCache(Duration = 180, VaryByParam = "id")]
         [HttpGet]
         public ActionResult Detail(int id)
         {
@@ -89,13 +98,24 @@ namespace ToDo.Web.Controllers
             return View(result.Data);
         }
 
+        [TokenValidation]
         [HttpGet]
         public ActionResult Delete(int id)
         {
             var result = _toDoListService.Delete(id);
             if (result.HasError)
                 SetErrorMessage(result.Message);
+            ClearCache(id);
             return RedirectToAction("List");
+        }
+
+        private void ClearCache(int id)
+        {
+            string url1 = Url.Action("List", "ToDoList");
+            string url2 = Url.Action("Detail", "ToDoList",new{id = id});
+
+            Response.RemoveOutputCacheItem(url1);
+            Response.RemoveOutputCacheItem(url2);
         }
     }
 }

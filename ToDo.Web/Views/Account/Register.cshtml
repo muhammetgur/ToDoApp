@@ -1,7 +1,35 @@
-﻿
+﻿@model ToDo.Dto.Web.UserDto
 @{
     ViewBag.Title = "Register";
 }
 
-<h2>Register</h2>
-
+<div class="contentpanel">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-3 mt150">
+            @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "validate-form" }))
+            {
+                <div class="form-group">
+                    @Html.TextBoxFor(model => model.Name, new { @class = "form-control ", required = "required", placeholder = "Name" })
+                </div>
+                <div class="form-group">
+                    @Html.TextBoxFor(model => model.Surname, new { @class = "form-control ", required = "required", placeholder = "Surname" })
+                </div>
+                <div class="form-group">
+                    @Html.TextBoxFor(model => model.Email, new { @class = "form-control ", required = "required", placeholder = "Email" })
+                </div>
+                <div class="form-group">
+                    @Html.PasswordFor(model => model.Password, new { @class = "form-control ", required = "required", placeholder = "Password" })
+                </div>
+                if (!string.IsNullOrEmpty(ViewData["registerError"] as string))
+                {
+                    <div class="alert alert-danger" role="alert">
+                        <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                        @ViewData["registerError"]
+                    </div>
+                }
+                <button type="submit" class="btn btn-success btn-block btn-lg">Register</button>
+            }
+        </div><!-- col-sm-5 -->
+        <div class="col-md-3"></div>
+    </div><!-- row -->
+</div><!-- signin -->

@@ -31,7 +31,13 @@ namespace ToDo.Core.Service.Web
             ToDoUnitOfWork.UserRepository.Insert(user);
             ToDoUnitOfWork.Save();
 
-            ToDoUnitOfWork.UserTokenRepository.Insert(new UserToken { Token = sessionToken, UserId = user.Id });
+            ToDoUnitOfWork.UserTokenRepository.Insert(new UserToken
+            {
+                Token = sessionToken,
+                UserId = user.Id,
+                ExpireDate = DateTime.Now,
+                Status = (int)Status.Active
+            });
             ToDoUnitOfWork.Save();
 
             var result = new RegisterResponseDto
@@ -74,7 +80,41 @@ namespace ToDo.Core.Service.Web
 
         public ResultDto<UserDto> GetBySessionToken(string sessionToken)
         {
-            throw new NotImplementedException();
+            var userToken = ToDoUnitOfWork.UserTokenRepository
+                .Where(x => x.Token == sessionToken && x.Status == (int)Status.Active).SingleOrDefault();
+            if (userToken == null)
+                return new ResultDto<UserDto> { HasError = true, Message = "User Token Expired!" };
+
+            var user = Get(userToken.UserId).Data;
+
+            return new ResultDto<UserDto>
+            {
+                Data = Mapper.Map<UserDto>(user),
+                HasError = false
+            };
+        }
+
+        public void InsertUserToken(UserTokenDto userTokenDto)
+        {
+            var userToken = Mapper.Map<UserToken>(userTokenDto);
+            ToDoUnitOfWork.UserTokenRepository.Insert(userToken);
+            ToDoUnitOfWork.Save();
+        }
+
+        public UserTokenDto CheckToken(string sessionToken)
+        {
+            var userToken = ToDoUnitOfWork.UserTokenRepository
+                .Where(x => x.Token == sessionToken && x.Status == (int)Status.Active).SingleOrDefault();
+            return Mapper.Map<UserTokenDto>(userToken);
+        }
+
+        public void Logout(string sessionToken)
+        {
+            var userToken = ToDoUnitOfWork.UserTokenRepository.Where(x => x.Token == sessionToken).SingleOrDefault();
+            if (userToken != null)
+                userToken.Status = (int) Status.Deleted;
+            ToDoUnitOfWork.UserTokenRepository.Update(userToken);
+            ToDoUnitOfWork.Save();
         }
 
         private LoginResponseDto CreateUserSession(int userId)
@@ -83,7 +123,8 @@ namespace ToDo.Core.Service.Web
             {
                 UserId = userId,
                 Token = Guid.NewGuid().ToString(),
-                ExpireDate = DateTime.Now.AddDays(2)
+                ExpireDate = DateTime.Now.AddDays(2),
+                Status = (int) Status.Active
             };
 
             ToDoUnitOfWork.UserTokenRepository.Insert(userSession);

@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using System.Web.Security;
 using ToDo.Core.Service.Web.Interfaces;
 using ToDo.Dto.Web;
 
@@ -21,7 +18,12 @@ namespace ToDo.Web.Controllers
         [HttpGet]
         public ActionResult Login()
         {
-            return View();
+            if (CurrentUser != null)
+                return RedirectToAction("List", "ToDoList");
+
+            var errorMessage = Request.Cookies.Get("ErrorMessage")?.Value;
+            SetErrorMessage(errorMessage);
+            return View(new LoginDto());
         }
 
         [HttpPost]
@@ -36,7 +38,7 @@ namespace ToDo.Web.Controllers
                 return View(loginDto);
             }
 
-            FormsAuthentication.SetAuthCookie(result.SessionToken,true);
+            SetCookie(result.SessionToken);
 
             return RedirectToAction("List","ToDoList");
         }
@@ -45,7 +47,7 @@ namespace ToDo.Web.Controllers
         [HttpGet]
         public ActionResult Register()
         {
-            return View();
+            return View(new UserDto());
         }
 
         [HttpPost]
@@ -58,9 +60,25 @@ namespace ToDo.Web.Controllers
                 SetErrorMessage(result.Message);
                 return View(userDto);
             }
-            FormsAuthentication.SetAuthCookie(result.SessionToken, false);
+            SetCookie(result.SessionToken);
 
             return RedirectToAction("List", "ToDoList");
         }
+
+
+        [HttpGet]
+        public ActionResult Logout()
+        {
+            _userService.Logout(CurrentSessionToken);
+
+            return View("Login", new LoginDto());
+        }
+
+        private void SetCookie(string sessionToken)
+        {
+            HttpCookie cookie = new HttpCookie("SessionToken", sessionToken);
+            Response.Cookies.Add(cookie);
+        }
+
     }
 }

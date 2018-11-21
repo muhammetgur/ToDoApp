@@ -7,7 +7,7 @@
       <Diagram DiagramId="8c8fe5becbb74bf3906fbdb1d531cbce" Name="Diagram1">
         <EntityTypeShape EntityType="ToDoListModel.ToDo_List" Width="1.5" PointX="0.75" PointY="0.75" />
         <EntityTypeShape EntityType="ToDoListModel.User" Width="1.5" PointX="3.375" PointY="1" />
-        <EntityTypeShape EntityType="ToDoListModel.UserToken" Width="1.5" PointX="5.625" PointY="1.25" />
+        <EntityTypeShape EntityType="ToDoListModel.UserToken" Width="1.5" PointX="5.625" PointY="1.125" />
         <AssociationConnector Association="ToDoListModel.FK_UserToken_User" />
       </Diagram>
     </edmx:Diagrams>

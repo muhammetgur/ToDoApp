@@ -8,3 +8,8 @@ C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Dto\b
 C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Dto\obj\Debug\ToDo.Dto.csprojResolveAssemblyReference.cache
 C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Dto\obj\Debug\ToDo.Dto.dll
 C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Dto\obj\Debug\ToDo.Dto.pdb
+C:\Users\muham\Source\Repos\ToDoListApp\ToDo.Dto\bin\Debug\ToDo.Dto.dll
+C:\Users\muham\Source\Repos\ToDoListApp\ToDo.Dto\bin\Debug\ToDo.Dto.pdb
+C:\Users\muham\Source\Repos\ToDoListApp\ToDo.Dto\obj\Debug\ToDo.Dto.csprojResolveAssemblyReference.cache
+C:\Users\muham\Source\Repos\ToDoListApp\ToDo.Dto\obj\Debug\ToDo.Dto.dll
+C:\Users\muham\Source\Repos\ToDoListApp\ToDo.Dto\obj\Debug\ToDo.Dto.pdb

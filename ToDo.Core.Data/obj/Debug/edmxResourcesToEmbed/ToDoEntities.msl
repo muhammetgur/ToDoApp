@@ -31,6 +31,7 @@
     <EntitySetMapping Name="UserTokens">
       <EntityTypeMapping TypeName="ToDoListModel.UserToken">
         <MappingFragment StoreEntitySet="UserToken">
+          <ScalarProperty Name="Status" ColumnName="Status" />
           <ScalarProperty Name="ExpireDate" ColumnName="ExpireDate" />
           <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
           <ScalarProperty Name="Token" ColumnName="Token" />

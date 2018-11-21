@@ -7,6 +7,7 @@
     <h2>@ViewBag.Title</h2>
     <div class="breadcrumb-wrapper">
         <a href="@Url.Action("Create", "ToDoList")" class="btn btn-primary">Create</a>
+        <a href="@Url.Action("Logout", "Account")" class="btn btn-danger">Logout</a>
     </div>
 </div>
 <div class="contentpanel">
@@ -46,8 +47,8 @@
                                 {
                                     foreach (var item in Model)
                                     {
-                                        <tr class="gradeX" onclick="window.location='/ToDoList/Detail/'+@item.Id;">
-                                            <td>
+                                        <tr class="gradeX" >
+                                            <td onclick="window.location='/ToDoList/Detail/'+@item.Id;">
                                                 <span>@item.Title</span>
                                             </td>
                                             <td>

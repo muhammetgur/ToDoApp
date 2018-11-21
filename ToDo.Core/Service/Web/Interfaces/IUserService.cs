@@ -11,5 +11,11 @@ namespace ToDo.Core.Service.Web.Interfaces
         LoginResponseDto Login(LoginDto loginDto);
 
         ResultDto<UserDto> GetBySessionToken(string sessionToken);
+
+        void InsertUserToken(UserTokenDto userTokenDto);
+
+        UserTokenDto CheckToken(string sessionToken);
+
+        void Logout(string sessionToken);
     }
 }

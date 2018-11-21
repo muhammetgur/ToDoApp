@@ -6,7 +6,7 @@
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Title" Type="nvarchar" MaxLength="150" Nullable="false" />
-    <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" />
     <Property Name="Priority" Type="int" Nullable="false" />
     <Property Name="WorkFlow" Type="int" Nullable="false" />
     <Property Name="Status" Type="int" Nullable="false" />
@@ -34,6 +34,7 @@
     <Property Name="Token" Type="nvarchar" MaxLength="150" Nullable="false" />
     <Property Name="CreateDate" Type="datetime" Nullable="false" StoreGeneratedPattern="Computed" />
     <Property Name="ExpireDate" Type="datetime" Nullable="false" />
+    <Property Name="Status" Type="int" Nullable="false" />
   </EntityType>
   <Association Name="FK_UserToken_User">
     <End Role="User" Type="Self.User" Multiplicity="1" />

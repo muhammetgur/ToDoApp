@@ -14,6 +14,9 @@ namespace ToDo.Mapping
             this.CreateMap<UserDto, User>();
             this.CreateMap<User, UserDto>();
 
+            this.CreateMap<UserTokenDto, UserToken>();
+            this.CreateMap<UserToken, UserTokenDto>();
+
         }
     }
 }

@@ -19,6 +19,7 @@ namespace ToDo.Core.Data
         public string Token { get; set; }
         public System.DateTime CreateDate { get; set; }
         public System.DateTime ExpireDate { get; set; }
+        public int Status { get; set; }
     
         public virtual User User { get; set; }
     }

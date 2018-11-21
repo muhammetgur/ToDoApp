@@ -15,7 +15,7 @@
     </Key>
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Title" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
-    <Property Name="Description" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Name="Priority" Type="Int32" Nullable="false" />
     <Property Name="WorkFlow" Type="Int32" Nullable="false" />
     <Property Name="Status" Type="Int32" Nullable="false" />
@@ -44,6 +44,7 @@
     <Property Name="Token" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
     <Property Name="CreateDate" Type="DateTime" Nullable="false" Precision="3" annotation:StoreGeneratedPattern="Computed" />
     <Property Name="ExpireDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
     <NavigationProperty Name="User" Relationship="ToDoListModel.FK_UserToken_User" FromRole="UserToken" ToRole="User" />
   </EntityType>
   <Association Name="FK_UserToken_User">

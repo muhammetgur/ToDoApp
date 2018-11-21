@@ -47,10 +47,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Web\LoginDto.cs" />
     <Compile Include="Web\LoginResponseDto.cs" />
+    <Compile Include="Web\RegisterDto.cs" />
     <Compile Include="Web\RegisterResponseDto.cs" />
     <Compile Include="Web\ResultDto.cs" />
     <Compile Include="Web\ToDoListDto.cs" />
     <Compile Include="Web\UserDto.cs" />
+    <Compile Include="Web\UserTokenDto.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

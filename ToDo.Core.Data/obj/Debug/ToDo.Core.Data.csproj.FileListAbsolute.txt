@@ -31,3 +31,13 @@ C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Data\obj\Debug\ToDo.Core.Data.c
 C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Data\obj\Debug\ToDo.Core.Data.csproj.CopyComplete
 C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Data\obj\Debug\ToDo.Core.Data.dll
 C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Data\obj\Debug\ToDo.Core.Data.pdb
+C:\Users\muham\Source\Repos\ToDoListApp\ToDo.Core.Data\bin\Debug\ToDo.Core.Data.dll.config
+C:\Users\muham\Source\Repos\ToDoListApp\ToDo.Core.Data\bin\Debug\ToDo.Core.Data.dll
+C:\Users\muham\Source\Repos\ToDoListApp\ToDo.Core.Data\bin\Debug\ToDo.Core.Data.pdb
+C:\Users\muham\Source\Repos\ToDoListApp\ToDo.Core.Data\bin\Debug\EntityFramework.dll
+C:\Users\muham\Source\Repos\ToDoListApp\ToDo.Core.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\muham\Source\Repos\ToDoListApp\ToDo.Core.Data\bin\Debug\EntityFramework.xml
+C:\Users\muham\Source\Repos\ToDoListApp\ToDo.Core.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\muham\Source\Repos\ToDoListApp\ToDo.Core.Data\obj\Debug\ToDo.Core.Data.csprojResolveAssemblyReference.cache
+C:\Users\muham\Source\Repos\ToDoListApp\ToDo.Core.Data\obj\Debug\ToDo.Core.Data.dll
+C:\Users\muham\Source\Repos\ToDoListApp\ToDo.Core.Data\obj\Debug\ToDo.Core.Data.pdb

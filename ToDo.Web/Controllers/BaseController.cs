@@ -15,6 +15,29 @@ namespace ToDo.Web.Controllers
             _userService = Core.Ioc.Bootstrapper.Resolve<IUserService>();
         }
 
+        public string CurrentSessionToken
+        {
+            get
+            {
+                var sessionToken = this.Request.Cookies.Get("SessionToken")?.Value;
+
+                return sessionToken;
+            }
+        }
+
+        public int CurrentUserID
+        {
+            get
+            {
+                if (CurrentUser != null)
+                {
+                    return CurrentUser.Id;
+                }
+
+                return 0;
+            }
+        }
+
         public UserDto CurrentUser
         {
             get
@@ -25,18 +48,9 @@ namespace ToDo.Web.Controllers
                 if (HttpContext == null)
                     return null;
 
-                var sessionToken = HttpContext.User.Identity.Name;
-
-                if (!string.IsNullOrEmpty(sessionToken))
+                if (!string.IsNullOrEmpty(CurrentSessionToken))
                 {
-                    var sessionTokenResult = _userService.GetBySessionToken(sessionToken);
-                    if (sessionTokenResult.HasError)
-                    {
-                        SetErrorMessage("Hata");
-                        FormsAuthentication.SignOut();
-                        FormsAuthentication.RedirectToLoginPage();
-                    }
-                    _currentUser = sessionTokenResult.Data;
+                    _currentUser = _userService.GetBySessionToken(CurrentSessionToken).Data;
                 }
 
                 return _currentUser;
