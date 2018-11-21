@@ -1,0 +1,48 @@
+﻿.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.nomargin {
+    margin: 0 !important;
+}
+
+.nopadding {
+    padding: 0 !important;
+}
+
+.searchButton {
+    padding: 0px;
+    width: 50px;
+    height: 100%;
+    border: 0px;
+}
+
+.searchSpan {
+    padding: 0px;
+}
+
+#iphonePreview {
+    -ms-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -ms-background-position: center;
+    background-position: center;
+    -ms-background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-image: url('../images/iPhone.png');
+    width: 300px;
+    height: 600px;
+    padding: 71px 21px 75px 21px;
+}
+
+    #iphonePreview iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    #iphonePreview > iframe html {
+        overflow: hidden !important;
+    }

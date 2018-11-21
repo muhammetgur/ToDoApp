@@ -1,0 +1,114 @@
+﻿@{
+    var successMessage = TempData["successMessage"];
+    var errorMessage = TempData["errorMessage"];
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - To Do List Application</title>
+    <link href="~/assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="/assets/css/style.default.css?v=0.1" rel="stylesheet">
+    <link href="/assets/css/jquery.datatables.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/bootstrap-timepicker.min.css" />
+    <link rel="stylesheet" href="/assets/css/jquery.tagsinput.css" />
+    @*<link rel="stylesheet" href="/assets/css/_dropzone.css" />*@
+    <link rel="stylesheet" href="/assets/css/toggles.css" />
+    <link href="~/assets/css/style.min.css" rel="stylesheet" />
+</head>
+<body class="wysihtml5-supported">
+   
+    <section>
+        <div class="mainpanel">
+
+            @RenderBody()
+
+            <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="Bilgi" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+
+                                <h3 class="panel-title" id="successModalTitle">Info</h3>
+                            </div>
+                            <div class="panel-body">
+                                <p id="pSuccessMessage">@successMessage</p>
+                            </div>
+                            <div class="panel-footer">
+                                <button type="button" class="btn btn-primary float-right" data-dismiss="modal">OK</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade modal-alert" id="errorModal" tabindex="-1" role="dialog" aria-labelledby="Alert" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                    </div>
+                    <div class="modal-content">
+                        <div class="panel panel-danger">
+                            <div class="panel-heading">
+
+                                <h3 class="panel-title" id="errorModalTitle">Hata</h3>
+
+                            </div>
+                            <div class="panel-body">
+                                <p id="pErrorMessage">@errorMessage</p>
+                            </div>
+                            <div class="panel-footer">
+                                <button type="button" class="btn btn-danger float-right" data-dismiss="modal">OK</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div><!-- mainpanel -->
+    </section>
+    <script src="/assets/js/jquery-1.10.2.min.js"></script>
+    <script src="/assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="/assets/js/jquery-ui-1.10.3.min.js"></script>
+    <script src="/assets/js/ui.datepicker-tr.js"></script>
+    <script src="/assets/js/ui.datepicker-gb.js"></script>
+    <script src="/assets/js/jquery.validate.min.js"></script>
+   
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/bootstrap-fileupload.min.js"></script>
+    <script src="/assets/js/modernizr.min.js"></script>
+    <script src="/assets/js/jquery.sparkline.min.js"></script>
+    <script src="/assets/js/toggles.min.js"></script>
+    <script src="/assets/js/retina.min.js"></script>
+    <script src="/assets/js/jquery.cookies.js"></script>
+
+    <script src="/assets/js/morris.min.js"></script>
+    <script src="/assets/js/raphael-2.1.0.min.js"></script>
+    <script src="/assets/js/jquery.datatables.min.js"></script>
+    <script src="/assets/js/chosen.jquery.min.js"></script>
+    <script src="/assets/js/colorpicker.js"></script>
+
+    <script src="/assets/js/custom.js"></script>
+    <script src="/assets/lib/custom/polar.js"></script>
+
+ @RenderSection("bodyend", false)
+
+    @if (successMessage != null)
+    {
+        <script type="text/javascript">
+            Polar.ShowSuccessMessage("@successMessage", 'Başarılı');
+        </script>
+    }
+
+    @if (errorMessage != null)
+    {
+        <script type="text/javascript">
+            Polar.ShowErrorMessage("@errorMessage", "Hata");
+        </script>
+
+    }
+
+</body>
+</html>

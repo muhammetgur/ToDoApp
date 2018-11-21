@@ -1,0 +1,11 @@
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Entity\bin\Debug\ToDo.Core.Entity.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Entity\bin\Debug\ToDo.Core.Entity.pdb
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Entity\obj\Debug\ToDo.Core.Entity.csprojAssemblyReference.cache
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Entity\obj\Debug\ToDo.Core.Entity.csproj.CoreCompileInputs.cache
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Entity\obj\Debug\ToDo.Core.Entity.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Entity\obj\Debug\ToDo.Core.Entity.pdb
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Entity\bin\Debug\ToDo.Core.Entity.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Entity\bin\Debug\ToDo.Core.Entity.pdb
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Entity\obj\Debug\ToDo.Core.Entity.csprojResolveAssemblyReference.cache
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Entity\obj\Debug\ToDo.Core.Entity.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Entity\obj\Debug\ToDo.Core.Entity.pdb

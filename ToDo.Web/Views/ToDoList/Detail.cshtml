@@ -1,0 +1,56 @@
+﻿@using ToDo.Dto.Web
+@model ToDoListDto
+@{
+    ViewBag.Title = Model.Title;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+<div class="pageheader">
+    <h2>@ViewBag.Title</h2>
+    <div class="breadcrumb-wrapper">
+        <a href="@Url.Action("List", "ToDoList")" class="btn btn-default">Listeye Dön</a>
+    </div>
+</div>
+<div class="contentpanel">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">Detail</h4>
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            @Html.Label("lblTitle", "Title *", new { @class = "col-sm-3 control-label" })
+
+                            <div class="col-sm-9">
+                                @Html.TextBoxFor(model => model.Title, new { @class = "form-control ", required = "required", @readonly = "readonly" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.Label("lblDescription", "Description", new { @class = "col-sm-3 control-label" })
+
+                            <div class="col-sm-9">
+                                @Html.TextAreaFor(model => model.Description, new { @class = "form-control input-sm", id = "ckeditor", @readonly = "readonly" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.Label("lblPriority", "Priority *", new { @class = "col-sm-3 control-label" })
+
+                            <div class="col-sm-9">
+                                @Html.EnumDropDownListFor(t => t.Priority, new { @class = "form-control input-sm", @readonly = "readonly" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.Label("lblWorkFlow", "WorkFlow *", new { @class = "col-sm-3 control-label" })
+
+                            <div class="col-sm-9">
+                                @Html.EnumDropDownListFor(t => t.WorkFlow, new { @class = "form-control input-sm", @readonly = "readonly" })
+                            </div>
+                        </div>
+
+                    </div><!-- panel-body -->
+                </div><!-- panel-default -->
+        </div>
+    </div>
+</div>

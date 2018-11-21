@@ -1,0 +1,178 @@
+﻿.signuppanel form {
+    background: rgba(255,255,255,0.95) !important;
+}
+
+.signinpanel form {
+    background: rgba(255,255,255,0.95) !important;
+}
+
+.table-firstcolbold td:first-child {
+    font-weight: bold;
+    width: 150px;
+}
+
+.white {
+    color: white;
+    font-size: 26px;
+    margin-right: 12px;
+}
+
+.danger {
+    font-size: 26px!important;
+    margin-right: 12px!important;
+}
+
+.order-status-text,
+.order-status-refunded,
+.order-status-pending,
+.order-status-completed,
+.order-status-canceled,
+.order-status-failed,
+.order-status-onhold,
+.order-status-processing {
+    line-height: 21px;
+    padding: 6px 15px;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    color: white;
+    max-width: 150px;
+    min-width: 100px;
+    cursor: default;
+}
+
+.marginB10 {
+    margin-bottom: 10px;
+}
+
+.marginR10 {
+    margin-right: 10px;
+}
+
+.marginL0 {
+    margin-left:0;
+}
+
+.marginL10 {
+    margin-left: 10px;
+}
+
+.order-status-pending {
+    background-color: orange;
+}
+
+.order-status-completed {
+    background-color: #388E3C;
+}
+
+.order-status-canceled {
+    background-color: #DD2C00;
+}
+
+.order-status-failed {
+    background-color: #FF3D00;
+}
+
+.order-status-onhold {
+    background-color: #EF6C00;
+}
+
+.order-status-processing {
+    background-color: #689F38;
+}
+
+.order-status-refunded {
+    background-color: bisque;
+}
+
+.order-status-text {
+    background-color: #e4e7ea;
+    color: black;
+    float: left;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align: center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    /* reset the text-align */
+    text-align: left;
+    /* inline-block space fix */
+    margin-right: -4px;
+}
+
+.col-fixed {
+    /* custom width */
+    width: 320px;
+}
+
+.col-min {
+    /* custom min width */
+    min-width: 320px;
+}
+
+.col-max {
+    /* custom max width */
+    max-width: 320px;
+}
+
+/* visual styles */
+
+
+
+[class*="col-"]:before {
+    display: block;
+    position: relative;
+    margin-bottom: 8px;
+    font-family: sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+/* content styles */
+.item {
+    display: table;
+}
+
+.content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+    .content:before {
+        content: "Content";
+        font-family: sans-serif;
+        font-size: 12px;
+        letter-spacing: 1px;
+        color: #747474;
+    }
+
+/* centering styles for jsbin */
+html,
+body {
+    width: 99%;
+    height: 100%;
+}
+
+html {
+    display: table;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}

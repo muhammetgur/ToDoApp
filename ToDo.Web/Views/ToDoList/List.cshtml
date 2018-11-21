@@ -1,0 +1,97 @@
+﻿@model List<ToDo.Dto.Web.ToDoListDto>
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="pageheader">
+    <h2>@ViewBag.Title</h2>
+    <div class="breadcrumb-wrapper">
+        <a href="@Url.Action("Create", "ToDoList")" class="btn btn-primary">Create</a>
+    </div>
+</div>
+<div class="contentpanel">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        @Html.Partial("Search")
+                        <table class="table table-info table-hover">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        Title
+                                    </th>
+                                    <th>
+                                        Priority
+                                    </th>
+                                    <th>
+                                        WorkFlow
+                                    </th>
+                                    <th style="width: 200px;">
+                                        Operation
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (!Model.Any())
+                                {
+                                    <tr>
+                                        <td colspan="2">
+                                            Kayıt Bulunamadı!
+                                        </td>
+                                    </tr>
+                                }
+                                else
+                                {
+                                    foreach (var item in Model)
+                                    {
+                                        <tr class="gradeX" onclick="window.location='/ToDoList/Detail/'+@item.Id;">
+                                            <td>
+                                                <span>@item.Title</span>
+                                            </td>
+                                            <td>
+                                                <span>@item.Priority.ToString()</span>
+                                            </td>
+                                            <td>
+                                                <span>@item.WorkFlow.ToString()</span>
+                                            </td>
+                                            <td>
+                                                <input type="hidden" value="@item.Id" class="selfId" />
+                                                <a class="btn btn-default btn-xs" href="@Url.Action("Edit", "ToDoList", new {id = item.Id})">
+                                                    Edit
+                                                </a>
+                                                <button class="btn btn-danger btn-xs deleteButton">Delete</button>
+                                            </td>
+                                        </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                        @*@Html.PagedListPager(Model, page => Url.Action("list", new
+                            {
+                                page = page,
+                                searchtext = Request.QueryString["searchtext"],
+                                sortingColumn = Request.QueryString["sortingColumn"]
+                            }))*@
+                    </div><!-- table-responsive -->
+                </div><!-- panel-body -->
+            </div><!-- panel -->
+        </div>
+    </div>
+</div>
+@section bodyend {
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $(".deleteButton").click(function () {
+                var id = $(this).parent().children(".selfId").val();
+                var selfButton = $(this);
+
+                if (confirm("Delete")) {
+                    window.location.href = "@Url.Action("Delete", "ToDoList")?id=" + id;
+                }
+            });
+        });
+    </script>
+}

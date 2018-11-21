@@ -1,0 +1,175 @@
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.Ioc.dll.config
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.Ioc.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.Ioc.pdb
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\AutoMapper.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Bootstrapper.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Bootstrapper.UnityExtension.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\CommonServiceLocator.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\EntityFramework.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Microsoft.Practices.Unity.Mvc.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.Helpers.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.Mvc.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.Razor.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.WebPages.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.Data.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Mapping.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.Abstractions.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.Configuration.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.Container.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.Interception.Configuration.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.Interception.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.RegistrationByConvention.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.ServiceLocation.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\WebActivatorEx.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Dto.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.Data.pdb
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.Data.dll.config
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.pdb
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.dll.config
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Mapping.pdb
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Mapping.dll.config
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\AutoMapper.xml
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\CommonServiceLocator.pdb
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\EntityFramework.xml
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Microsoft.Practices.Unity.Mvc.xml
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.Helpers.xml
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.Mvc.xml
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.Razor.xml
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.WebPages.xml
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.Configuration.pdb
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.Interception.Configuration.pdb
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.RegistrationByConvention.pdb
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.ServiceLocation.pdb
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Dto.pdb
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\obj\Debug\ToDo.Core.Ioc.csprojAssemblyReference.cache
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\obj\Debug\ToDo.Core.Ioc.csproj.CoreCompileInputs.cache
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\obj\Debug\ToDo.Core.Ioc.csproj.CopyComplete
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\obj\Debug\ToDo.Core.Ioc.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Ioc\obj\Debug\ToDo.Core.Ioc.pdb
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.Ioc.dll.config
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.Ioc.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.Ioc.pdb
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\AutoMapper.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Bootstrapper.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Bootstrapper.UnityExtension.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\CommonServiceLocator.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\EntityFramework.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Microsoft.Practices.Unity.Mvc.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.Helpers.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.Mvc.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.Razor.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.WebPages.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.Data.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Mapping.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.Abstractions.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.Configuration.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.Container.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.Interception.Configuration.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.Interception.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.RegistrationByConvention.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.ServiceLocation.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\WebActivatorEx.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Dto.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.Data.pdb
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.Data.dll.config
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.pdb
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.dll.config
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Mapping.pdb
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Mapping.dll.config
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\AutoMapper.xml
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\CommonServiceLocator.pdb
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\EntityFramework.xml
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Microsoft.Practices.Unity.Mvc.xml
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.Helpers.xml
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.Mvc.xml
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.Razor.xml
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.WebPages.xml
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.Configuration.pdb
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.Interception.Configuration.pdb
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.RegistrationByConvention.pdb
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.ServiceLocation.pdb
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Dto.pdb
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\obj\Debug\ToDo.Core.Ioc.csprojResolveAssemblyReference.cache
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\obj\Debug\ToDo.Core.Ioc.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Ioc\obj\Debug\ToDo.Core.Ioc.pdb
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.Ioc.dll.config
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.Ioc.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.Ioc.pdb
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\AutoMapper.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Bootstrapper.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Bootstrapper.UnityExtension.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\CommonServiceLocator.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\EntityFramework.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Microsoft.Practices.Unity.Mvc.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.Helpers.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.Mvc.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.Razor.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.WebPages.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.Data.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Mapping.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.Abstractions.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.Configuration.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.Container.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.Interception.Configuration.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.Interception.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.RegistrationByConvention.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.ServiceLocation.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\WebActivatorEx.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Dto.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.Data.pdb
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.Data.dll.config
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.pdb
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Core.dll.config
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Mapping.pdb
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Mapping.dll.config
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\AutoMapper.xml
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\CommonServiceLocator.pdb
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\EntityFramework.xml
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Microsoft.Practices.Unity.Mvc.xml
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.Helpers.xml
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.Mvc.xml
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.Razor.xml
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.WebPages.xml
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.Configuration.pdb
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.Interception.Configuration.pdb
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.RegistrationByConvention.pdb
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\Unity.ServiceLocation.pdb
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\bin\Debug\ToDo.Dto.pdb
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\obj\Debug\ToDo.Core.Ioc.csprojAssemblyReference.cache
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\obj\Debug\ToDo.Core.Ioc.csproj.CoreCompileInputs.cache
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\obj\Debug\ToDo.Core.Ioc.csproj.CopyComplete
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\obj\Debug\ToDo.Core.Ioc.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Ioc\obj\Debug\ToDo.Core.Ioc.pdb

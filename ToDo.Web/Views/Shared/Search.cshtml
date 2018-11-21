@@ -1,0 +1,7 @@
+﻿
+<div class="input-group  mb20">
+    @Html.TextBox("searchText", "", new { @class = "form-control", aria_describedby = "btnSearch",id= "searchTextInput", placeholder = "Search" })
+    <span class="input-group-addon searchSpan " id="btnSearch">
+        <input type="button" value="Search" class="searchButton" onclick="window.location.href = '/ToDoList/Search' + '?searchText=' + document.getElementById('searchTextInput').value;" />
+    </span>
+</div>

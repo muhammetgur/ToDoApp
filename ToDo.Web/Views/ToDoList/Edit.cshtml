@@ -1,0 +1,69 @@
+﻿@using ToDo.Dto.Web
+@model ToDoListDto
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    bool isNew = Model.Id == 0;
+
+}
+<div class="pageheader">
+    <h2>@ViewBag.Title</h2>
+    <div class="breadcrumb-wrapper">
+        <a href="@Url.Action("List", "ToDoList")" class="btn btn-default">Listeye Dön</a>
+    </div>
+</div>
+<div class="contentpanel">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            @using (Html.BeginForm(isNew ? "Create" : "Edit", "ToDoList", FormMethod.Post, new { @class = "form-horizontal validate-form", id = "form1" }))
+            {
+                if (!isNew)
+                {
+                    @Html.HiddenFor(model => model.Id)
+                }
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">@(isNew ? "Create" : "Edit")</h4>
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            @Html.Label("lblTitle", "Title *", new { @class = "col-sm-3 control-label" })
+
+                            <div class="col-sm-9">
+                                @Html.TextBoxFor(model => model.Title, new { @class = "form-control ", required = "required" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.Label("lblDescription", "Description", new { @class = "col-sm-3 control-label" })
+
+                            <div class="col-sm-9">
+                                @Html.TextAreaFor(model => model.Description, new { @class = "form-control input-sm", id = "ckeditor" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.Label("lblPriority", "Priority *", new { @class = "col-sm-3 control-label" })
+
+                            <div class="col-sm-9">
+                                @Html.EnumDropDownListFor(t => t.Priority, new { @class = "form-control input-sm" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.Label("lblWorkFlow", "WorkFlow *", new { @class = "col-sm-3 control-label" })
+
+                            <div class="col-sm-9">
+                                @Html.EnumDropDownListFor(t => t.WorkFlow, new { @class = "form-control input-sm" })
+                            </div>
+                        </div>
+
+                    </div><!-- panel-body -->
+                    <div class="panel-footer">
+                        <button class="btn btn-primary">@(isNew ? "Create" : "Update")</button>
+                        <a class="btn btn-default" href="@Url.Action("List", "ToDoList")">Cancel</a>
+                    </div><!-- panel-footer -->
+                </div><!-- panel-default -->
+            }
+        </div>
+    </div>
+</div>

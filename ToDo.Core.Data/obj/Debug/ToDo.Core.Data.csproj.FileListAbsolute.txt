@@ -1,0 +1,33 @@
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Data\bin\Debug\ToDo.Core.Data.dll.config
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Data\bin\Debug\ToDo.Core.Data.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Data\bin\Debug\ToDo.Core.Data.pdb
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Data\bin\Debug\EntityFramework.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Data\bin\Debug\EntityFramework.xml
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Data\obj\Debug\ToDo.Core.Data.csproj.CoreCompileInputs.cache
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Data\obj\Debug\ToDo.Core.Data.csproj.CopyComplete
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Data\obj\Debug\ToDo.Core.Data.dll
+C:\Users\MuhammetGür\source\repos\ToDo.Web\ToDo.Core.Data\obj\Debug\ToDo.Core.Data.pdb
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Data\bin\Debug\ToDo.Core.Data.dll.config
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Data\bin\Debug\ToDo.Core.Data.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Data\bin\Debug\ToDo.Core.Data.pdb
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Data\bin\Debug\EntityFramework.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Data\bin\Debug\EntityFramework.xml
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Data\obj\Debug\ToDo.Core.Data.csprojResolveAssemblyReference.cache
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Data\obj\Debug\ToDo.Core.Data.dll
+C:\Users\muham\OneDrive\Belgeler\Visual Studio 2017\Projects\ToDo.Web\ToDo.Core.Data\obj\Debug\ToDo.Core.Data.pdb
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Data\bin\Debug\ToDo.Core.Data.dll.config
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Data\bin\Debug\ToDo.Core.Data.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Data\bin\Debug\ToDo.Core.Data.pdb
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Data\bin\Debug\EntityFramework.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Data\bin\Debug\EntityFramework.xml
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Data\obj\Debug\ToDo.Core.Data.csprojAssemblyReference.cache
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Data\obj\Debug\ToDo.Core.Data.csproj.CoreCompileInputs.cache
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Data\obj\Debug\ToDo.Core.Data.csproj.CopyComplete
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Data\obj\Debug\ToDo.Core.Data.dll
+C:\Users\MuhammetGür\Desktop\ToDo.Web\ToDo.Core.Data\obj\Debug\ToDo.Core.Data.pdb
